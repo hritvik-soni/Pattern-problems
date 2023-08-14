@@ -12,13 +12,14 @@ class pattern10 {
             }
 
              for(int j=0;j<star;j++){
-               System.out.print("* ");
-              
-            }
+      
+               System.out.print("* ");}
+             
          space++;
          star--;
          System.out.println();
          }
            s.close();
-    }
+  }
 }
+
