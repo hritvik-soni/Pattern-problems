@@ -25,5 +25,6 @@ class pattern7 {
            
          System.out.println();
          }
+           s.close();
     }
 }

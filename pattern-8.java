@@ -14,6 +14,7 @@ class pattern8 {
                 }
             }
             System.out.println();
+            s.close();
 
          }
     }

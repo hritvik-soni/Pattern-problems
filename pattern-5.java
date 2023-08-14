@@ -19,5 +19,6 @@ class pattern5 {
          star--;
          System.out.println();
          }
+           s.close();
     }
 }

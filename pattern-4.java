@@ -19,5 +19,6 @@ class pattern4 {
          star++;
          System.out.println();
          }
+           s.close();
     }
 }

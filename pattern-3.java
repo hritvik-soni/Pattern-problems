@@ -12,5 +12,6 @@
          star--;
          System.out.println();
          }
+           s.close();
     }
 }

@@ -18,5 +18,6 @@ class pattern9 {
          star++;
          System.out.println();
          }
+           s.close();
     }
 }

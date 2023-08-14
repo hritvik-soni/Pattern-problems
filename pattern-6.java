@@ -18,5 +18,6 @@ class pattern6 {
            
          System.out.println();
          }
+           s.close();
     }
 }
