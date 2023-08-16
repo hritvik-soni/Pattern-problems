@@ -1,5 +1,5 @@
 import java.util.*;
-class pattern9 {
+class pattern18 {
     public static void main(String[] args) {
          Scanner s= new Scanner(System.in);
          int n = s.nextInt();
@@ -14,8 +14,15 @@ class pattern9 {
              for(int j=0;j<star;j++){
                System.out.print("* ");
             }
-         space--;
-         star+=2;
+            if(i<n/2){
+             space--;
+            star+=2;
+            }
+            else{
+               space++;
+              star-=2;
+            }
+         
          System.out.println();
          }
            s.close();
